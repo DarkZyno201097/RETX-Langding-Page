@@ -1,0 +1,62 @@
+{
+    "header": {
+        "menu":{
+            "ecosystem": "Hệ sinh thái",
+            "aboutus": "Về chúng tôi",
+            "partner": "Đối tác",
+            "news": "Tin tức"
+        },
+        "language":{
+            "langVi": "Tiếng Việt",
+            "langEn": "English",
+            "chooseLang": "Chọn ngôn ngữ",
+            "langMobile":"Ngôn ngữ:&nbsp;"
+        }
+    },"banner":{
+        "title":"Nền tảng số hoá tài sản đầu tiên tại Việt Nam",
+        "subTitle":"Cùng MetaDAP mở ra cánh cửa bước vào kỷ nguyên Kinh tế số"
+    },"history":{
+        "title":"Công nghệ lõi MetaDAP",
+        "content":{
+            "t1":"Kể từ khi xuất hiện năm 1974, việc xây dựng các mô hình kinh doanh trên Internet đã mang lại thành công và thịnh vượng cho nhiều doanh nghiệp. Cũng nhờ đó Internet đã liên tục tích lũy và trở thành kho dữ liệu <span class=\"text-sematic-4\">(#BigData)</span>  lớn nhất của nhân loại.",
+            "t2":"Khi sự phổ biến của Internet đạt bão hòa, lợi thế sẽ thuộc về các doanh nghiệp biết cách khai thác và sử dụng dữ liệu từ Internet, và tất nhiên AI <span class=\"text-sematic-4\">(#Artificial Intelligence)</span> sẽ là công cụ không thể thiếu để hiện thực lợi thế này.</span",
+            "t3":"Minh bạch, công bằng và riêng tư là điều người dùng Internet luôn hướng tới, điều đó giải thích cho sự phổ biến nhanh chóng của Blockchain, nhiều người còn cho rằng web3 là hình thái phát triển tiếp theo của Internet.",
+            "t4":"Với năng lực chống gian lận và rửa tiền, chúng tôi tin rằng <span class=\"text-sematic-4\">#Enterprise Blockchain</span> là hạ tầng phù hợp với môi trường Doanh nghiệp và các thể chế Chính trị hơn so với Public blockchain, chẳng hạn như Bitcoin." 
+        } 
+    },"ecosystem":{
+        "title":"Hệ sinh thái",
+        "content":{
+            "t1":"Mục tiêu của MetaDAP là xây dựng các tiện ích nền tảng để phục vụ nền kinh tế số, sau đó tiến tới công khai  <span class=\"text-sematic-4\">(#openAPI)</span> để các nhà phát triển, doanh nghiệp có thể kế thừa và sáng tạo phát triển tiện ích kinh doanh của riêng mình. <br/> Lấy pháp luật làm chuẩn mực, các tiện ích nền tảng của MetaDAP đều yêu cầu người dùng tính xác thực danh tính <span class=\"text-sematic-4\">(#eKYC)</span> trước khi có thể thực hiện mọi giao dịch, kết hợp với đảm bảo toàn vẹn dữ liệu sẽ là giải pháp hữu hiệu để chống gian lận và rửa tiền  <span class=\"text-sematic-4\">(#AML) </span>.",
+            "t2":"Mục tiêu của MetaDAP là xây dựng các tiện ích nền tảng để phục vụ nền kinh tế số, sau đó tiến tới công khai  <span class=\"text-sematic-4\">(#openAPI)</span> để các nhà phát triển, doanh nghiệp có thể kế thừa và sáng tạo phát triển tiện ích kinh doanh của riêng mình. ",
+            "t3":"Lấy pháp luật làm chuẩn mực, các tiện ích nền tảng của MetaDAP đều yêu cầu người dùng tính xác thực danh tính <span class=\"text-sematic-4\">(#eKYC)</span> trước khi có thể thực hiện mọi giao dịch, kết hợp với đảm bảo toàn vẹn dữ liệu sẽ là giải pháp hữu hiệu để chống gian lận và rửa tiền  <span class=\"text-sematic-4\">(#AML) </span>."
+        }
+    },"team":{
+        "title":"Đội ngũ của chúng tôi",
+        "t1":"Trần Quý",
+        "t2":"Trần Quốc Việt",
+        "t3":"Đặng Thị Kiên Giang",
+        "t4":"Hà Thảo Vi",
+        "t5":"Hồ An",
+        "t6":"Đinh Mỹ Hằng"
+    },"vision":{
+        "title":"Sứ mệnh & Tầm nhìn",
+        "vision":"Tầm nhìn",
+        "mission":"Sứ mệnh",
+        "content":{
+            "t1":"Thế giới đang mạnh mẽ bước vào kỷ nguyên số và đa kết nối, hàng loạt mô hình kinh doanh sáng tạo sẽ được tạo ra để <span class=\"text-sematic-4\">#thay thế</span> dần các mô hình truyền thống đang dần trở nên bất tiện, chậm chạp và thiếu an toàn.",
+            "t2":"MetaDAP có sứ mệnh <span class=\"text-sematic-4\">#tiên phong</span> để xây dựng một nền tảng số hóa Tài sản và hỗ trợ đa kết nối để mở ra cánh cửa phục vụ cho nền Kinh tế số." 
+        }
+    },"partner":{
+        "title":"Đối tác và Khách hàng",
+        "subTitle":"Chúng tôi đã có cơ hội hợp tác với hơn 100 đối tác"
+    },"news":{
+        "title":"Tin tức Sự kiện"
+    },"footer":{
+         "title":"Hệ sinh thái MetaDAP",
+         "address":"Địa chỉ: T1-B27.08 khu Masteri - 159 Xa Lộ Hà Nội, phường Thảo Điền, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+         "phone":"Điện thoại: <a href=\"#\" className=\"\">0919696000</a>",
+         "copyright": "Power by &nbsp;<span class=\"text-gray-1\">Viện Phát triển Kinh tế số Việt Nam</span>",
+         "term":"Điều khoản",
+         "policy":"Chính sách"
+    }
+}

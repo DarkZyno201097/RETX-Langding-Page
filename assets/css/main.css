@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: "Plus Jakarta Sans", sans-serif;
+		scroll-behavior: smooth;
+	}
+}
+
+@layer components {
+	.scroll-view::-webkit-scrollbar-track,
+	.scroll-view::-webkit-scrollbar-thumb {
+		z-index: 50;
+	}
+}
+
+@layer utilities {
+	/* heading text */
+
+	.heading-h1 {
+		letter-spacing: -0.01em;
+		@apply text-heading-64 font-bold;
+	}
+
+	.heading-h2 {
+		letter-spacing: -0.01em;
+		@apply text-heading-40 font-bold;
+	}
+
+	.heading-h3 {
+		letter-spacing: -0.01em;
+		@apply text-heading-32 font-bold;
+	}
+
+	.heading-h4 {
+		letter-spacing: -0.01em;
+		@apply text-heading-24 font-bold;
+	}
+
+	.heading-h5 {
+		font-feature-settings: "salt" on, "liga" off;
+		@apply text-heading-24 font-semibold;
+	}
+
+	.heading-52 {
+		letter-spacing: -0.01em;
+		@apply text-heading-52 font-extrabold;
+	}
+
+	/* body-text */
+
+	.body-10-regular {
+		@apply text-body-10 font-normal;
+	}
+
+	.body-10-medium {
+		@apply text-body-10 font-medium;
+	}
+
+	.body-10-bold {
+		@apply text-body-10 font-bold;
+	}
+
+	.body-12-regular {
+		@apply text-body-12 font-normal;
+	}
+
+	.body-12-medium {
+		@apply text-body-12 font-medium;
+	}
+
+	.body-12-bold {
+		@apply text-body-12 font-bold;
+	}
+
+	.body-14-regular {
+		@apply text-body-14 font-normal;
+	}
+
+	.body-14-medium {
+		@apply text-body-14 font-medium;
+	}
+
+	.body-14-bold {
+		@apply text-body-14 font-bold;
+	}
+
+	.body-16-regular {
+		@apply text-body-16 font-normal;
+	}
+
+	.body-16-medium {
+		@apply text-body-16 font-medium;
+	}
+
+	.body-16-medium-italic {
+		@apply text-body-16 font-medium italic;
+	}
+
+	.body-16-bold {
+		font-feature-settings: "ss06" on, "ss04" on, "liga" off;
+		@apply text-body-16 font-bold;
+	}
+
+	.body-18-regular {
+		@apply text-body-18 font-normal;
+	}
+
+	.body-18-medium {
+		letter-spacing: -0.005em;
+		@apply text-body-18 font-medium;
+	}
+
+	.body-18-bold {
+		letter-spacing: -0.005em;
+		@apply text-body-18 font-bold;
+	}
+
+	.body-20-regular {
+		@apply text-body-20 font-normal;
+	}
+
+	.body-20-medium {
+		letter-spacing: -0.005em;
+		@apply text-body-20 font-medium;
+	}
+
+	.body-20-bold {
+		letter-spacing: -0.005em;
+		@apply text-body-20 font-bold;
+	}
+
+	.text-linear {
+		background: linear-gradient(36.53deg, #ff9e0f 14.22%, #ff7c0f 85.72%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+
+	input[name="selectLanguage"] + label.text-language {
+		@apply body-14-medium text-black opacity-[0.85];
+	}
+
+	input[name="selectLanguage"]:checked + label.text-language {
+		@apply body-14-bold text-black opacity-[0.85]
+	}
+
+	.item-language{
+		color: #34306A;
+		opacity: 0.85; 
+		@apply body-14-medium;
+	}
+	button:hover .item-language, .item-language.active{
+		color: #FF8800;
+		opacity: 1;
+	}
+
+	.effect-none {
+		background: #ffffff00;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+	}
+
+	.effect-shadow {
+		background: #d9d9d9;
+		box-shadow: 0px 0px 10px rgba(78, 93, 228, 0.4);
+	}
+
+	.effect-1 {
+		background: #d9d9d9;
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+	}
+
+	.effect-2 {
+		background: #d9d9d9;
+		box-shadow: 0px 4px 28px rgba(78, 93, 228, 0.12);
+	}
+
+	.effect-3 {
+		filter: drop-shadow(0px 1px 30px rgba(85, 91, 229, 0.06));
+	}
+
+	.effect-4 {
+		box-shadow: 0px 1px 30px rgba(85, 91, 229, 0.06);
+	}
+
+	.effect-3 {
+		box-shadow: 0px 0px 24px rgba(78, 93, 228, 0.12);
+	}
+
+	.effect-3 {
+		box-shadow: 0px 0px 24px rgba(78, 93, 228, 0.12);
+	}
+
+	.box-shadow-1 {
+		background: #ffffff;
+		box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+	}
+
+	.box-shadow-2 {
+		background: #ffffff;
+		box-shadow: 0px 4px 40px rgba(14, 8, 84, 0.1);
+	}
+
+	.bg-primary-gradient {
+		background: linear-gradient(36.53deg, #ff9e0f 14.22%, #ff7c0f 85.72%);
+		position: relative;
+		z-index: 2;
+	}
+
+	select {
+		padding: 6px 0;
+		@apply text-primary-1 text-body-14 font-bold;
+	}
+
+	option {
+		@apply p-3 border border-gray-2 rounded-lg;
+	}
+
+	.clip-2-line {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	/* toggle sun light icon */
+}

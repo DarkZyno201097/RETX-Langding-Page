@@ -1,0 +1,62 @@
+{
+    "header": {
+        "menu":{
+            "ecosystem": "Our Ecosystem",
+            "aboutus": "About Us",
+            "partner": "Our Partners",
+            "news": "News"
+        },
+        "language":{
+            "langVi": "Vietnamese",
+            "langEn": "English",
+            "chooseLang": "Choose language",
+            "langMobile":"Language:&nbsp;"
+        }
+    },"banner":{
+        "title":"The first Digital Asset Platform in Vietnam",
+        "subTitle":"Fly with us to open the door to enter the Digital Economy Era"
+    },"history":{
+        "title":"MetaDap Core Technology",
+        "content":{
+            "t1":"Since its inception in 1974, building business models on the Internet has brought success and prosperity to many businesses. Thanks to that, the Internet has continuously accumulated and become the largest data store <span class=\"text-sematic-4\">(#BigData)</span> of mankind.",
+            "t2":"When the popularity of the Internet reaches saturation, the advantage will belong to businesses that know how to exploit and use data from the Internet, and of course AI <span class=\"text-sematic-4\">(#Artificial Intelligence)</span> will be an indispensable tool to realize these advantages.</span",
+            "t3":"Transparency, fairness and privacy are what Internet users always aim for, which explains the rapid popularity of Blockchain technology, many people even think that web3 is the next development form of the Internet.",
+            "t4":"With anti-fraud and money laundering capabilities, we believe that <span class=\"text-sematic-4\">#Enterprise Blockchain</span> is an infrastructure that is more suitable for Enterprise environments and Political institutions than Public blockchains, such as Bitcoin." 
+        } 
+    },"ecosystem":{
+        "title":"Our Ecosystem",
+        "content":{
+            "t1":"The goal of MetaDAP is to build platform utilities to serve the digital economy, then go public <span class=\"text-sematic-4\">(#openAPI)</span> so developers and businesses can inherit and innovate to develop their own business utilities. <br/> Taking the legal as a prerequisite standard, MetaDAP's utilities all require users to verify their identity <span class=\"text-sematic-4\">(#eKYC)</span> before any transactions can be made, combined with the data immutability feature will be an effective solution to combat fraud and money laundering <span class=\"text-sematic-4\">(#AML) </span>.",
+            "t2":"The goal of MetaDAP is to build platform utilities to serve the digital economy, then go public <span class=\"text-sematic-4\">(#openAPI)</span> so developers and businesses can inherit and innovate to develop their own business utilities.",
+            "t3":"Taking the legal as a prerequisite standard, MetaDAP's utilities all require users to verify their identity <span class=\"text-sematic-4\">(#eKYC)</span> before any transactions can be made, combined with the data immutability feature will be an effective solution to combat fraud and money laundering <span class=\"text-sematic-4\">(#AML) </span>."
+        }
+    },"team":{
+        "title":"Our Team",
+        "t1":"Quy Tran",
+        "t2":"Viet Tran Quoc",
+        "t3":"Giang Dang Thi Kien",
+        "t4":"Vi Ha Thao",
+        "t5":"An Ho",
+        "t6":"Hang Dinh My"
+    },"vision":{
+        "title":"Our Missions & Vision",
+        "vision":"Vision",
+        "mission":"Mission",
+        "content":{
+            "t1":"The world is strongly entering the digital and multi-connected era, so there will create many innovative business models to <span class=\"text-sematic-4\">#replace</span> the traditional models that are gradually becoming inconvenient, slow and unsafe.",
+            "t2":"MetaDAP has a <span class=\"text-sematic-4\">#pioneering</span> mission to build an Asset Digitization Platform which supports multi-connection to open the door to serve the Digital Economy." 
+        }
+    },"partner":{
+        "title":"Our Partners & Customers",
+        "subTitle":"We have had the opportunity to cooperate with more than 100 partners"
+    },"news":{
+        "title":"News"
+    },"footer":{
+         "title":"Metadap Ecosystem",
+         "address":"Address: T1-B27.08 khu Masteri - 159 Xa Lộ Hà Nội, phường Thảo Điền, Thành phố Thủ Đức, Thành phố Hồ Chí Minh ",
+         "phone":"Phone: <a href=\"#\" className=\"\">0919696000</a>",
+         "copyright": "Power by &nbsp;<span class=\"text-gray-1\">Vietnam Digital Economy Development Institute</span>",
+         "term":"Terms",
+         "policy":"Poilicies"
+    }
+}
